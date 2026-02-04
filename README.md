@@ -1,34 +1,5 @@
 # CandidateFit AI - Product Walkthrough Guide
 
-## Technology Stack
-
-### Core Technologies
-- **Python 3.14** - Programming language
-- **Streamlit 1.53+** - Web UI framework
-- **OpenAI API (GPT-4)** - AI-powered resume suggestions
-
-### Data Processing & ML
-- **scikit-learn 1.8+** - TF-IDF keyword extraction
-- **NumPy 2.4+** - Numerical computations
-- **Pandas 2.3+** - Data manipulation
-
-### Development Tools
-- **pytest 9.0+** - Unit testing framework
-- **python-dotenv 1.2+** - Environment variable management
-
-### Key Libraries
-- **re** (built-in) - Regular expressions for text parsing
-- **typing** (built-in) - Type hints for code quality
-- **collections** (built-in) - Counter for frequency analysis
-
-### Application Type
-- **Local Web Application** - Runs on your computer, accessed via browser
-- **No Installation Required** - No .exe or .app files
-- **Cross-Platform** - Works on Mac, Windows, Linux
-- **Privacy-First** - All processing happens locally, no cloud deployment
-
----
-
 ## What is CandidateFit AI?
 
 CandidateFit AI is an **ATS-style resume scoring tool** that helps job seekers understand how well their resume matches a job description. It provides:
@@ -79,6 +50,35 @@ You get a comprehensive dashboard with:
 - **Keyword gaps** (missing vs. present keywords)
 - **AI-powered suggestions** (rewritten bullets, new content ideas)
 - **Downloadable HTML report**
+
+---
+
+## Technology Stack
+
+### Application Type
+- **Local Web Application** - Runs on your computer, accessed via browser
+- **No Installation Required** - No .exe or .app files
+- **Cross-Platform** - Works on Mac, Windows, Linux
+- **Privacy-First** - All processing happens locally, no cloud deployment
+
+### Core Technologies
+- **Python 3.14** - Programming language
+- **Streamlit 1.53+** - Web UI framework for the browser interface
+- **OpenAI API (GPT-4)** - AI-powered resume suggestions
+
+### Data Processing & ML
+- **scikit-learn 1.8+** - TF-IDF keyword extraction
+- **NumPy 2.4+** - Numerical computations
+- **Pandas 2.3+** - Data manipulation
+
+### Development Tools
+- **pytest 9.0+** - Unit testing framework (12 tests, all passing)
+- **python-dotenv 1.2+** - Environment variable management
+
+### Key Libraries
+- **re** (built-in) - Regular expressions for text parsing
+- **typing** (built-in) - Type hints for code quality
+- **collections** (built-in) - Counter for frequency analysis
 
 ---
 
