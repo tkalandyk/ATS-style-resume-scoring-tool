@@ -53,35 +53,6 @@ You get a comprehensive dashboard with:
 
 ---
 
-## Technology Stack
-
-### Application Type
-- **Local Web Application** - Runs on your computer, accessed via browser
-- **No Installation Required** - No .exe or .app files
-- **Cross-Platform** - Works on Mac, Windows, Linux
-- **Privacy-First** - All processing happens locally, no cloud deployment
-
-### Core Technologies
-- **Python 3.14** - Programming language
-- **Streamlit 1.53+** - Web UI framework for the browser interface
-- **OpenAI API (GPT-4)** - AI-powered resume suggestions
-
-### Data Processing & ML
-- **scikit-learn 1.8+** - TF-IDF keyword extraction
-- **NumPy 2.4+** - Numerical computations
-- **Pandas 2.3+** - Data manipulation
-
-### Development Tools
-- **pytest 9.0+** - Unit testing framework (12 tests, all passing)
-- **python-dotenv 1.2+** - Environment variable management
-
-### Key Libraries
-- **re** (built-in) - Regular expressions for text parsing
-- **typing** (built-in) - Type hints for code quality
-- **collections** (built-in) - Counter for frequency analysis
-
----
-
 ## Scoring Algorithm (Transparent & Deterministic)
 
 ### Overall Score Formula
@@ -235,43 +206,6 @@ Side-by-side comparison:
 
 ---
 
-## Demo Script (5-Minute Walkthrough)
-
-### Minute 1: Introduction
-> "CandidateFit AI helps job seekers understand how ATS systems score their resumes. Unlike real ATS systems that are black boxes, this tool shows you exactly why you lost points and how to improve."
-
-### Minute 2: Input Demo
-> "Let me paste a sample resume and job description. Notice the clean interface - just two text boxes. No file uploads, no complicated forms."
-
-### Minute 3: Results Overview
-> "Here's the overall score: 72.3 out of 100. This is calculated from 5 weighted subscores. Let me expand each one to show you the details."
-
-**Show:**
-- Skills Match: 83/100 (missing Cloud Security)
-- Tools Match: 57/100 (missing Jira, ServiceNow, Azure)
-- Keyword Coverage: 75/100 (missing 5 of top 20 keywords)
-- Experience/Impact: 63/100 (could use more metrics)
-- Structure: 84/100 (well-formatted)
-
-### Minute 4: Point-Loss Analysis
-> "The system tells you exactly why you lost points. For example, it says 'Missing tools: Jira, ServiceNow, Azure'. This is actionable - you can add these to your resume if you have experience with them."
-
-**Show:**
-- Point-loss reasons list
-- Keyword gap table
-- Missing vs. present keywords
-
-### Minute 5: AI Suggestions
-> "Finally, the AI provides rewritten bullets with stronger language and quantified impact. For example, it turned 'Worked on security projects' into 'Led implementation of ISO 27001 compliance framework, reducing audit findings by 40%'."
-
-**Show:**
-- Rewritten bullets (before/after)
-- Suggested new bullets
-- Keyword integration tips
-- Download report button
-
----
-
 ## Technical Highlights
 
 ### Architecture
@@ -399,40 +333,3 @@ Side-by-side comparison:
 ✅ Works reliably without complex setup  
 ✅ Generates professional downloadable reports  
 
-**Perfect for:** Job seekers who want to optimize their resumes with data-driven insights before applying.
-
-**Next Steps:**
-1. Try it with your own resume and a real job description
-2. Review the detailed subscore breakdowns
-3. Implement the AI suggestions
-4. Re-run to see your improved score
-5. Download the report for your records
-
----
-
-## Quick Reference
-
-### Running the App
-```bash
-cd "CandidateFit AI"
-source .venv/bin/activate
-streamlit run app.py
-```
-
-### Access URL
-http://localhost:8501
-
-### Files to Review
-- `README.md` - Setup and technical details
-- `accuracy_report.md` - Scoring verification
-- `walkthrough.md` - Development summary
-- `PRODUCT_WALKTHROUGH.md` - This file
-
-### Support
-- Check README.md for troubleshooting
-- Run tests: `pytest tests/ -v`
-- Verify scoring: `python verify_scoring.py`
-
----
-
-**Ready to optimize your resume? Let's get started!** 🚀
