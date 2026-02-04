@@ -1,3 +1,6 @@
+
+<img width="1536" height="1024" alt="ChatGPT Image Feb 3, 2026, 09_23_26 PM" src="https://github.com/user-attachments/assets/19aed509-6ac8-4c72-8bf3-ff042db69018" />
+
 # CandidateFit AI - Product Walkthrough Guide
 
 ## What is CandidateFit AI?
