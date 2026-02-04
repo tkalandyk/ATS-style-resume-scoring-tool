@@ -16,9 +16,8 @@ CandidateFit AI is an **ATS-style resume scoring tool** that helps job seekers u
 
 ---
 
-<a href="https://youtu.be/e428GylvUTI" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/candidatefit-ai.png" alt="CandidateFit AI Demo" width="1200">
-</a>
+[![CandidateFit AI Demo](./assets/candidatefit-ai.png)](https://youtu.be/e428GylvUTI)
+
 
 
 
